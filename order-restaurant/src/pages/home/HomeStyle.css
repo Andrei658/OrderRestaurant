@@ -1,0 +1,41 @@
+
+.container-home{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-home-options{
+    display: flex;
+    gap:40px;
+}
+
+.container-home-options .choose-option{
+    height: 500px;
+    width: 500px;
+    background-color: #2ec4b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 8%;
+    color:#011627;
+    transition: 0.2s ease-in all;
+}
+
+.container-home-options .choose-option:hover{
+    opacity: 0.8;
+    color:#fdfffc;
+}
+
+.container-home-options .choose-option .icon-option{
+    font-size: 80px;
+} 
